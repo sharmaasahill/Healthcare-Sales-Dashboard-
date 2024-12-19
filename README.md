@@ -78,7 +78,7 @@ Lets dive into detailed explanations:
 # Detailed Insights Explanation:
 
 ## Page-One: Home
-![Screenshot 2024-06-01 092330](https://drive.google.com/file/d/1HA-GqguW1bmAhRni_Lm-pX9x1vKMLBF_/view?usp=sharing)
+![Healthcare Sales Dashboard_Home](https://drive.google.com/file/d/1HA-GqguW1bmAhRni_Lm-pX9x1vKMLBF_/view?usp=sharing)
 
 This page has been designed to be visually appealing, aiming to provide a comprehensive summary of overall sales performance. The dashboard effectively uses various visual elements to present key performance indicators (KPIs) and other relevant data points.
 
@@ -110,7 +110,7 @@ This overview page provides a high-level snapshot of the sales data, enabling st
 
 ## Page-Two: INSIGHTS
 
-![Screenshot 2024-06-01 092345](https://drive.google.com/file/d/1lw1hiBdXnuE586uGczzpnb3IOVgWsQvb/view?usp=sharing)
+![Healthcare Sales Dashboard_Insights](https://drive.google.com/file/d/1lw1hiBdXnuE586uGczzpnb3IOVgWsQvb/view?usp=sharing)
 
 
 This page provides key insights into customer demographics and sales performance across various segments. It includes essential KPIs and visualizations to help stakeholders understand customer behavior and geographic trends.
