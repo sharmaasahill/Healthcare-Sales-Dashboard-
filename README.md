@@ -1,207 +1,191 @@
-# Healthcare Sales Dashboard 
+# Healthcare Sales Dashboard
 
-## Created & Analyzed by Sahil Kumar Sharma [Linkedin](https://www.linkedin.com/in/sharmaasahill/)
+## Created & Analyzed by Ayesha Tasnim  
 
-#
+[LinkedIn](https://www.linkedin.com/in/tasnimayesha/)
+
+---
 
 ## Project Objective
 
-The primary objective of this project is to develop a comprehensive and visually appealing Power BI dashboard that analyzes the medicine sales data for the entire year of 2023 and 2022.
+The primary objective of this project is to develop a comprehensive and visually appealing **Power BI dashboard** that analyzes the **medicine sales data for the entire year of 2023 and 2022**.
 
-This initiative has been undertaken in response to stakeholders' requests to gain a clear understanding of sales performance. By transforming raw data into actionable insights, the dashboard aims to assist stakeholders in making informed strategic decisions for future planning.
+This initiative has been undertaken in response to **stakeholders' requests** to gain a clear understanding of **sales performance**. By transforming raw data into **actionable insights**, the dashboard aims to assist stakeholders in making **informed strategic decisions** for future planning.
 
-#
+---
 
 ## Dataset Overview
-This project involves analyzing medicine sales data using **three provided CSV files**. Each file represents a different aspect of the dataset: **customers**, **drugs**, and **sales transactions**. 
 
+This project involves analyzing **medicine sales data** using **three provided CSV files**. Each file represents a different aspect of the dataset: **Customers, Drugs, and Sales Transactions**.
 
 Below is a detailed description of each table, including the data types and brief descriptions of each column.
 
 ### 1. Customer Table
-The Customer Table contains information about the customers who purchase medicines.
 
-|Column	| Data Type	|Description|
-|--|--|--|
-|CustomerID|	Integer	|Unique identifier for each customer|
-|FirstName|	String|	First name of the customer|
-|LastName	|String	|Last name of the customer|
-|Age	|Integer	|Age of the customer|
-|Gender|	String|	Gender of the customer|
-|Country|	String|	Country where the customer resides|
-|OtherCustomerInfo|	String	|Additional information about the customer (e.g., Frequent Buyer, New Customer)|
+The **Customer Table** contains information about the customers who purchase medicines.
+
+| Column | Data Type | Description |
+|--------|-----------|-------------|
+| CustomerID | Integer | Unique identifier for each customer |
+| FirstName | String | First name of the customer |
+| LastName | String | Last name of the customer |
+| Age | Integer | Age of the customer |
+| Gender | String | Gender of the customer |
+| Country | String | Country where the customer resides |
+| OtherCustomerInfo | String | Additional information about the customer (e.g., Frequent Buyer, New Customer) |
 
 ### 2. Drugs Lookup Table
-The Drugs Lookup Table contains information about the medicines available for sale.
 
-|Column	|Data Type|	Description|
-|--|--|--|
-|DrugID	|Integer	|Unique identifier for each drug|
-|RegulatoryComplianceID	|Integer	|Identifier for regulatory compliance category|
-|DrugName	|String|	Name of the drug|
-|UnitSalesPrice	|Float|	Sales price per unit of the drug|
-|CostOfProduction	|Float	|Production cost per unit of the drug|
-|Treats	|String	|Description of what the drug treats|
+The **Drugs Lookup Table** contains information about the medicines available for sale.
+
+| Column | Data Type | Description |
+|--------|-----------|-------------|
+| DrugID | Integer | Unique identifier for each drug |
+| RegulatoryComplianceID | Integer | Identifier for regulatory compliance category |
+| DrugName | String | Name of the drug |
+| UnitSalesPrice | Float | Sales price per unit of the drug |
+| CostOfProduction | Float | Production cost per unit of the drug |
+| Treats | String | Description of what the drug treats |
 
 ### 3. Sales Transactions Table
-The Sales Transactions Table records each sale made, including details of the drug sold and the customer who bought it.
 
-|Column|	Data Type	|Description|
-|--|--|--|
-|SaleID	|Integer|	Unique identifier for each sale|
-|DrugID|	Integer	|Identifier for the drug sold|
-|CustomerID|	Integer	|Identifier for the customer who bought the drug|
-|UnitsSold	|Integer	|Number of units sold in the transaction|
-|SaleDate|	Date	|Date of the sale|
-|BuyerType	|String	|Type of buyer (e.g., Seller, User)|
+The **Sales Transactions Table** records each sale made, including details of the drug sold and the customer who bought it.
+
+| Column | Data Type | Description |
+|--------|-----------|-------------|
+| SaleID | Integer | Unique identifier for each sale |
+| DrugID | Integer | Identifier for the drug sold |
+| CustomerID | Integer | Identifier for the customer who bought the drug |
+| UnitsSold | Integer | Number of units sold in the transaction |
+| SaleDate | Date | Date of the sale |
+| BuyerType | String | Type of buyer (e.g., Seller, User) |
 
 ### Summary
- * **Customer Table**: Provides demographic and additional information about each customer.
- * **Drugs Lookup Table**: Contains details about each drug, including pricing and regulatory information.
- * ***Sales Transactions Table**: Records details of each sale, including the drug sold, the customer, and the transaction specifics.
 
-#
+- **Customer Table**: Provides demographic and additional information about each customer.
+- **Drugs Lookup Table**: Contains details about each drug, including pricing and regulatory information.
+- **Sales Transactions Table**: Records details of each sale, including the drug sold, the customer, and the transaction specifics.
+
+---
 
 ## Dashboard Overview
-Based on the project objective, I have developed a two-page Power BI dashboard report to analyze and visualize the medicine sales data for 2023. The dashboard is structured as follows:
+
+Based on the project objective, I have developed a **two-page Power BI dashboard report** to analyze and visualize the medicine sales data for 2023. The dashboard is structured as follows:
 
 ### 1. Home Page
-The Home Page provides an overview of the overall insights, including key performance indicators, sales trends, and a summary of the sales data. This page is designed to give stakeholders a quick and comprehensive view of the sales performance, highlighting essential metrics and overall business health.
+
+- Provides an overview of the overall insights, including **key performance indicators (KPIs)**, sales trends, and a summary of the sales data.
+- Designed to give stakeholders a **quick and comprehensive view** of the sales performance.
 
 ### 2. Insights Page
-The Insights Page is dedicated to demographic-based insights. It includes detailed visualizations and analyses of customer demographics, such as age, gender, and customer type (e.g., Frequent Buyer, New Customer). This page helps stakeholders understand the characteristics of their customer base and how different segments contribute to overall sales.
 
-#
+- Dedicated to **demographic-based insights**.
+- Includes detailed visualizations of **customer demographics** (age, gender, customer type) to understand how different segments contribute to overall sales.
 
-Lets dive into detailed explanations:
-
-# Detailed Insights Explanation:
+---
 
 ## Page-One: Home
-![Healthcare Sales Dashboard_Home](https://drive.google.com/uc?id=1HA-GqguW1bmAhRni_Lm-pX9x1vKMLBF_)
 
-This page has been designed to be visually appealing, aiming to provide a comprehensive summary of overall sales performance. The dashboard effectively uses various visual elements to present key performance indicators (KPIs) and other relevant data points.
+![Healthcare Sales Dashboard_Home](https://drive.google.com/file/d/1anrHSDJ47Csq5Tdz5T6LCi7Y9ywBr2GQ/view?usp=drivesdk)
 
-### Top KPIs:
- * Total Quantity Sold: 245k units
- * Total Cost of Goods Sold (COGS): $11.69 million
- * Total Revenue: $65 million
- * Profit: $53 million
+This page provides a **comprehensive summary** of overall sales performance using **various visual elements** to present key performance indicators (KPIs).
 
-### Revenue by Drug Name:
- * A bar chart is used to display revenue generated by each drug. It shows that Lisinopril has the highest revenue at $3.2 million.
+### Key Performance Indicators
 
- * Users can also view drugs based on **COGS**, **quantity sold**, and **profit** by clicking the respective buttons provided.
+- **Total Quantity Sold**: 245k units
+- **Total Cost of Goods Sold (COGS)**: $11.69 million
+- **Total Revenue**: $65 million
+- **Profit**: $53 million
 
-### Revenue by Customer:
- * Another bar chart illustrates revenue generated by each customer. Analysis reveals that David Johnson is the top revenue-generating customer, contributing $3.6 million.
+### Revenue by Drug Name
 
- * Users can also view customer data based on **quantity sold** and **profit** by clicking the appropriate buttons.
+- A **bar chart** displays revenue generated by each drug.
+- **Lisinopril** has the highest revenue at **$3.2 million**.
+- Users can view data based on **COGS, quantity sold, and profit**.
 
-### Profit by Buyer Type:
- * A doughnut chart is used to depict profit distribution by buyer type. It shows that sellers generate the highest profit at $46.49 million, which is 87.75% of the total. In contrast, users contribute $6.49 million, accounting for 12.25% of the total profit.
+### Revenue by Customer
 
- * Users can switch the view to see **total revenue** or **quantity** by buyer type by clicking the respective buttons.
+- A **bar chart** illustrates revenue generated by each customer.
+- **David Johnson** is the top revenue-generating customer at **$3.6 million**.
 
-This overview page provides a high-level snapshot of the sales data, enabling stakeholders to quickly grasp key metrics and performance indicators. The interactive elements allow for deeper exploration and understanding of the data based on specific criteria.
+### Profit by Buyer Type
 
+- A **doughnut chart** shows that **sellers** generate the highest profit at **$46.49 million (87.75%)**.
 
-#
+---
 
-## Page-Two: INSIGHTS
+## Page-Two: Insights
 
-![Healthcare Sales Dashboard_Insights](https://drive.google.com/uc?id=1lw1hiBdXnuE586uGczzpnb3IOVgWsQvb)
+![Healthcare Sales Dashboard_Insights](https://drive.google.com/file/d/1ag69YAaa2q2QZb54-UqitWPAdb698zVa/view?usp=drivesdk)
 
+This page provides key **demographic insights** into customer behavior and geographic trends.
 
-This page provides key insights into customer demographics and sales performance across various segments. It includes essential KPIs and visualizations to help stakeholders understand customer behavior and geographic trends.
+### Top KPIs
 
-### Top KPIs Section:
-Important KPIs are displayed at the top of the page to give a quick overview of customer metrics:
- * Total Customers: 200
- * Average Revenue per Customer: $323,000
- * Total Transactions: 15,000
- * Average Revenue per Transaction: $4,200
- * These KPIs provide a snapshot of customer engagement and financial performance.
+- **Total Customers**: 200
+- **Average Revenue per Customer**: $323,000
+- **Total Transactions**: 15,000
+- **Average Revenue per Transaction**: $4,200
 
-### Sales by Country:
-A map chart is used to visualize sales by country. Users can also switch to a chart view if preferred.
+### Sales by Country
 
-Analysis reveals that the **highest revenue is generated from Canada at $29 million**, followed by:
- * Australia: $12 million
- * Germany: $6 million
- * United Kingdom: $6 million
- * United States: $5 million
- * France: $5 million **(lowest)**
+- **Highest revenue from Canada**: $29 million
+- **Lowest revenue from France**: $5 million
 
-### Revenue by Gender:
-A bar chart displays revenue by gender.
+### Revenue by Gender
 
-Analysis indicates that the **highest revenue is generated from males at $30 million**, followed by:
- * Females: $21 million
- * Others: $12 million (lowest)
+- **Males**: $30 million
+- **Females**: $21 million
+- **Others**: $12 million
 
-### Revenue by Age Group:
-A bar chart is used to show revenue by age group.
+### Revenue by Age Group
 
-Analysis shows that the **highest revenue is generated from the 51+ age group at $34 million**, followed by:
- * 31-40 age group: $11 million
- * 41-50 age group: $9 million
- * 21-30 age group: $8 million
- * 0-20 age group: $3 million (lowest)
+- **51+ Age Group**: $34 million (highest revenue)
+- **0-20 Age Group**: $3 million (lowest revenue)
 
-### Revenue by Year:
- * A line chart displays revenue by year.
- * Analysis shows revenue of $**3 million in 2022** and **$62 million in 2023**, indicating significant growth.
+### Revenue by Year
 
-### Revenue by Quarter:
-Analysis indicates revenue as follows:
- * Q1: $15.86 million
- * Q2: $15.35 million
- * Q3: $16.40 million
- * Q4: $16.06 million
+- **2022**: $3 million
+- **2023**: $62 million (significant growth)
 
-### Revenue by Month:
-Analysis reveals that the **highest revenue is generated in July**, while the **lowest is in August**.
+### Revenue by Quarter
 
-### Revenue by Day Name:
- * The purpose of this chart is to show revenue based on the day of the week.
- * Analysis shows that the **highest revenue is generated on** **Fridays at $9.8 million**, while the **lowest is on Thursdays at $8.6 million.**
+- **Q1**: $15.86 million
+- **Q2**: $15.35 million
+- **Q3**: $16.40 million
+- **Q4**: $16.06 million
 
-This page provides a comprehensive view of customer demographics, sales performance by geography, and temporal trends, allowing stakeholders to make informed decisions based on detailed customer and sales insights.
+---
 
-#
+## Real-World Recommendations
 
-## Real-World Recommendations Based on Insights
-Based on the detailed insights from the Power BI dashboard analyzing the medicine sales data for 2023, here are the top five recommendations for stakeholders to consider:
+Based on the insights, here are five strategic recommendations:
 
- * **Focus marketing efforts on Lisinopril:**  The data shows Lisinopril is the top revenue generator.  Allocate marketing budget to promote this drug and potentially explore upselling or cross-selling related medications.
+1. **Focus marketing efforts on Lisinopril**, as it generates the highest revenue.
+2. **Target high-value customers like David Johnson** with personalized campaigns.
+3. **Increase sales to females and younger demographics** through targeted marketing.
+4. **Expand sales in high-revenue countries** like Canada and Australia.
+5. **Analyze seasonal trends** and optimize promotions based on peak sales periods.
 
- * **Target high-value customers like David Johnson:**  Identify and target high-revenue customers like David Johnson with personalized marketing campaigns and loyalty programs to retain their business and potentially increase their purchases.
+---
 
- * **Increase sales to female and younger demographics:**  The data suggests lower sales from females and younger age groups. Develop targeted marketing campaigns to reach these demographics and understand their specific needs and preferences.
+## My Learnings
 
- * **Expand sales in high-revenue countries**:  Canada leads in sales, followed by Australia, Germany, and the UK. Consider regional marketing campaigns or explore partnerships with distributors in these countries to further increase sales.
+This project has enhanced my **analytical skills** in **Power BI, data visualization, and business intelligence**. I am now more confident in transforming raw data into meaningful insights for **strategic business decisions**.
 
- * **Analyze seasonal trends and optimize promotions:**  Sales data indicates a peak in July and a dip in August.  Investigate reasons behind these trends and plan targeted promotions or discounts strategically to address seasonal fluctuations.
+---
 
-#
+## How You Can Help Me
 
-## My Learnings:
-This project has significantly enhanced my analytical skills, particularly in using Power BI for data visualization and analysis. I am now more confident in my ability to transform raw data into meaningful insights that can drive strategic business decisions. This experience has prepared me well for future data analysis projects, and I look forward to applying these skills in more complex and challenging scenarios.
+I have successfully completed **10+ Power BI projects**. I invite you to explore my work!
 
-
-## How you can help me:
-
-I've successfully completed over **10 Power BI projects**. You're all invited to explore these amazing projects!
-
-**Additionally, I'm currently seeking internship or full time opportunities. If you have any opportunities available or need a freelance Power BI project completed, please connect with me on LinkedIn.**
+🚀 **Currently seeking internship or full-time opportunities.** If you have opportunities available or need a **freelance Power BI project**, please connect with me on [LinkedIn](https://www.linkedin.com/in/tasnimayesha/).
 
 Looking forward to connecting with you all!
 
-#
+---
 
-### Created and Presented by-
+### Created and Presented by
 
-Sahil Kumar Sharma [LinkedIn](https://www.linkedin.com/in/sharmaasahill/)
-
-Location: India
+**Ayesha Tasnim**  
+📍 Location: Bhubaneswar, Odisha, India
